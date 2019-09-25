@@ -7,7 +7,7 @@ public class Ejercicio08 {
     char letra4 = 'h';
     char letra5 = 'e';
     
-    String coche = letra1 + "" + letra2 + "" + letra3 + "" + letra4 + "" + letra5;
+    String coche = "" + letra1 + letra2 + letra3 + letra4 + letra5;
     
     System.out.println(coche);
     

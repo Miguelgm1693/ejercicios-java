@@ -1,4 +1,4 @@
-public class Ejercicio07 {
+ public class Ejercicio07 {
   public static void main(String [] args){
     
     char letra1 = 'p';
@@ -7,7 +7,7 @@ public class Ejercicio07 {
     String palabra1 = "pescado";
     String palabra2 = "caña";
     
-    System.out.println(letra1 + "" + letra2 + ""+ letra3+ palabra1 + palabra2);
+    System.out.println(letra1 + "" + letra2 + "" + letra3 + palabra1 + palabra2);
     
  }
 }
