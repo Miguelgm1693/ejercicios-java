@@ -1,2 +1,3 @@
-# ejercicios-java
-Ejercicios Programación 
+# Ejercicios Java 1ºDAM
+Ejercicios de clase de Programación en Java.
+ 
