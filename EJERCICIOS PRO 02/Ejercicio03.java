@@ -6,9 +6,9 @@ public class Ejercicio03 {
    nombre = "Miguel Gonzalez";
    direccion = "Calle la piruleta";
    telefono = "666444555";
-  System.out.println(nombre);
-  System.out.println(direccion);
-  System.out.println(telefono);
+  System.out.println("Nombre: " + nombre);
+  System.out.println("Dirección: " + direccion);
+  System.out.println("Teléfono: " + telefono);
   
  }
 }

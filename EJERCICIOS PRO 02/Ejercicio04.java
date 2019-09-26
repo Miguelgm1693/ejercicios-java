@@ -4,7 +4,7 @@ public class Ejercicio04 {
     double euros = 20;
     double pesetas = (euros * 166.386);
     
-  System.out.println(euros + "€ son " + pesetas + " pesetas");
+  System.out.println(euros + "€ son " + (int) pesetas + " pesetas");
     
  }
 }
