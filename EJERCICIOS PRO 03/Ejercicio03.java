@@ -8,6 +8,6 @@ public class Ejercicio03 {
       double euros;
       euros = pesetas / 166.386;
       
-      System.out.println((int)pesetas + " pesetas son " + (double)euros + "€");
+      System.out.printf("%d pesetas son %.2f€",(int)pesetas, (double)euros);
     }
   }
