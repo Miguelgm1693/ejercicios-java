@@ -10,27 +10,27 @@ public class Ejercicio01 {
          System.out.println("El lunes a primera tienes PRO");
        } 
        
-       else if ("martes".equalsIgnoreCase(dia)) {
+         else if ("martes".equalsIgnoreCase(dia)) {
          System.out.println("El martes a primera hora tienes EED");
        }
                   
-       else if ("miercoles".equalsIgnoreCase(dia)) {
+         else if ("miercoles".equalsIgnoreCase(dia)) {
          System.out.println("El Miércoles a primera tienes PRO");
        }
                    
-       else if ("jueves".equalsIgnoreCase(dia)) {
+         else if ("jueves".equalsIgnoreCase(dia)) {
          System.out.println("El jueves a primera tienes PRO");
        }
                      
-       else if ("viernes".equalsIgnoreCase(dia)) {
+         else if ("viernes".equalsIgnoreCase(dia)) {
          System.out.println("El viernes a primera tienes SI");
        }
                      
-       else if ("sabado".equalsIgnoreCase(dia)) {
+         else if ("sabado".equalsIgnoreCase(dia)) {
          System.out.println("¡A dormir se ha dicho!");
        }
               
-       else if ("domingo".equalsIgnoreCase(dia)) {
+         else if ("domingo".equalsIgnoreCase(dia)) {
          System.out.println("Los domingos son para descansar");
        } else {
          System.out.println("Introduzca la palabra correcta");
