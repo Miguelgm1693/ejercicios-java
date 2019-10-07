@@ -26,15 +26,14 @@ public class Ejercicio09 {
       System.out.println("X2 = " + (-b - Math.sqrt(r)) / (2 * a));
     }
     
-    if (a == 0) && (b == 0) && (c != 0) {
+    if ((a == 0) && (b == 0) && (c != 0)) {
       System.out.println("La ecuación no tiene solución");
-    } else if (a == 0) && (b == 0) && (c == 0) 
+    } else if ((a == 0) && (b == 0) && (c == 0)) { 
       System.out.println("Infinitas soluciones");
-    } else if (a == 0) && (b != 0) && (c != 0) {
-      System.out.println("Una única solución x = ");
+    } else if ((a == 0) && (b != 0) && (c != 0)) {
+      System.out.println("Una única solución x = " + (-c/b));
     }
-    
-        
+          
  }   
 }
 
