@@ -6,6 +6,7 @@ public class Ejercicio19 {
     System.out.println("Escriba un número entero (máximo 5 cifras): ");
     int num = Integer.parseInt(System.console().readLine());
     
+    num = -num;
     if (num < 10) {
       System.out.print("El número se compone de 1 dígito");
       }
@@ -28,4 +29,13 @@ public class Ejercicio19 {
       
  }   
 }
+ /* podemos utilizar else if tambien y ponerlo de tal manera
+  * if (num < 10) {
+  * } else if (num < 100) {
+  * }
+  * etc...
+  * si hacemos esto num = -num; conseguimos que números negativos tambien puedan ser negativos.
+  * 
+  */
+
 

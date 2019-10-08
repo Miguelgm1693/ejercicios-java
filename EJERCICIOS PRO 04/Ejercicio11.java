@@ -17,11 +17,11 @@ public class Ejercicio11 {
    int segundosMediaNoche = (24 * 3600) - (segundosHoraMinuto);
    
    if (segundosMediaNoche > 0) {
-      System.out.printf("A la hora %2d:%2d faltan %2d segundos para media noche", hora, minuto, segundosMediaNoche);
+      System.out.printf("A la hora %02d:%02d faltan %2d segundos para media noche", hora, minuto, segundosMediaNoche);
      } else if (segundosMediaNoche < 0) {
       System.out.println("La hora o minutos introducidos no son correctos"); 
      }
    
  }
 }
-  // Preguntar como se puede poner en los minutos 01,09,08 a la hora de representar en un print.
+ 

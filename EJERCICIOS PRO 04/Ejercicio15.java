@@ -3,7 +3,7 @@ public class Ejercicio15 {
     // Decir mes y día de nacimiento y que el programa nos lo resuelva con nuestro horóscopo.
       
     System.out.println("En este programa vamos a dibujar una pirámide con lo que pongamos en teclado");
-    System.out.println("Introduzca en el teclado lo que quieras que se haga pirámide: ");
+    System.out.println("Introduzca en el teclado lo que quieras que se haga pirámide (relleno): ");
     String pira;
     pira = System.console().readLine(); 
     
@@ -12,7 +12,7 @@ public class Ejercicio15 {
     System.out.println("2 - Diracción hacia la derecha ");
     System.out.println("3 - Dirección hacia abajo ");
     System.out.println("4 - Dirección hacia la izquierda ");
-    System.out.println(" ");
+    System.out.print("Introduzca una opción: ");
     int direccion = Integer.parseInt(System.console().readLine());
     System.out.println(" ");
    

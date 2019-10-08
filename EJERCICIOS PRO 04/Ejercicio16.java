@@ -13,7 +13,7 @@ public class Ejercicio16 {
     System.out.println("1. Tu pareja parece estar más inquieta de lo normal sin ningún motivo aparente.");
     respuesta = System.console().readLine();
     if (respuesta.equals("v")) {
-      puntos += 3;
+      puntos += 3;  //puntos +=3 es lo mismo que si pusieramos puntos = puntos + 3
       }
     
     System.out.println("2. Ha aumentado sus gastos de vestuario.");
