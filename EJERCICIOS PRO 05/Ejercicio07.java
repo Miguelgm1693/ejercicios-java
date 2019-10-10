@@ -14,7 +14,9 @@ public class Ejercicio07 {
 	} while (intentos > 0 && codigo != opcion);  
     
     if (opcion == codigo) {
-	  System.out.print("La caja  ");
-	}    
+	  System.out.println("La caja fuerte ha sido abierta");
+	} else {
+	  System.out.println("La caja se ha bloqueado, no ha podido ser abierta");
+	}   
   }
 }
