@@ -8,15 +8,15 @@ public class Ejercicio07 {
     int opcion = 0;
     
     do {
-	System.out.print("Introduzca el código de la caja fuerte: ");
-	opcion = Integer.parseInt(System.console().readLine());
-	intentos --;		
-	} while (intentos > 0 && codigo != opcion);  
+    System.out.print("Introduzca el código de la caja fuerte: ");
+    opcion = Integer.parseInt(System.console().readLine());
+    intentos --;
+    } while (intentos > 0 && codigo != opcion);  
     
     if (opcion == codigo) {
-	  System.out.println("La caja fuerte ha sido abierta");
-	} else {
-	  System.out.println("La caja se ha bloqueado, no ha podido ser abierta");
-	}   
+      System.out.println("La caja fuerte ha sido abierta");
+    } else {
+      System.out.println("La caja se ha bloqueado, no ha podido ser abierta");
+    }   
   }
 }
