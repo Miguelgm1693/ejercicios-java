@@ -26,13 +26,7 @@ public class Ejercicio14 {
         potencia = potencia * base;
       }
     }  
-    if (exponente < 0) {
-      for (int i = 0; i < -exponente; i++) {
-        potencia = potencia * base;
-      }
-      potencia = 1/potencia;
-    }
     
-    System.out.println(base + "^" + exponente + "=" + potencia);   
+    System.out.println(base + "^" + exponente + " = " + potencia);   
   }
 }  
