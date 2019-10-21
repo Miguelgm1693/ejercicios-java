@@ -1,34 +1,44 @@
 public class Ejercicio20 {
   public static void main(String[]args) {
+    System.out.println("En este programa vamos a dibujar una pirámide hueca");
     
-    int altura = 0;
+    int alturaIntroducida;
     System.out.print("Introduzca la altura de la pirámide: ");
-    altura = Integer.parseInt(System.console().readLine());
+    alturaIntroducida = Integer.parseInt(System.console().readLine());
     
     String caracter;
     System.out.print("Introduzca el carácter con el que pintar la pirámide: ");
     caracter = System.console().readLine();
     
-    int caracteresPorFila = 1;
-    int espaciosDelante = altura;
+    int altura = 1;
+    int i = 0;
+    int espaciosDelante = alturaIntroducida - 1;
+    int espaciosHuecos = 0;
     
-    for (int i = 0; i < altura; i++) {
-      
-      //espacios delanteros en cada fila.
-      for(int j = 0; j < espaciosDelante; j++) {
+    while (altura < alturaIntroducida) {
+      //inserta espacios delante
+      for (i = 1; i <= espaciosDelante; i++) {
         System.out.print(" ");
       } 
-      
-      for (int j = 0; j < caracteresPorFila; j++) {  //esta línea pinta los caracteres de la fila
-        System.out.print(caracter);
+      //pinta la linea
+      System.out.print(caracter);
+      for (i = 1; i < espaciosHuecos; i++) {
+      System.out.print(" ");
       }
-       
+      if (altura > 1) {
+      System.out.print(caracter);
+      }
       
-    System.out.println();  
-    caracteresPorFila += 2;
-    espaciosDelante--;
+      System.out.println();
+      altura++;
+      espaciosDelante--;
+      espaciosHuecos += 2;
     }
     
+    // base piramide
+    for (i = 1; i < altura  * 2; i++) {
+      System.out.print(caracter);
+    } 
     
   }
 }

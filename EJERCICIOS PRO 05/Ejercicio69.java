@@ -10,10 +10,12 @@ public class Ejercicio69 {
     int espaciosDelante = altura;
     
     for (int i = 0; i < altura; i++) {
+      
       //pinta espacios delanteros
       for(int j = 0; j < espaciosDelante; j++) {
         System.out.print(" ");
-      }  
+      }
+        
       //pinta el flanco izquierdo
       for(int j = 0; j < caracteresPorFila; j++) {
         System.out.print("*");
@@ -25,6 +27,7 @@ public class Ejercicio69 {
       } else {  
         System.out.print("    ");
       }
+      
       //pinta el flanco derecho
       for (int j = 0; j < caracteresPorFila; j++) {  //esta línea pinta los caracteres de la fila
         System.out.print("*");
@@ -35,7 +38,6 @@ public class Ejercicio69 {
     caracteresPorFila ++;
     espaciosDelante--;
     }
-    
     
   }
 }
