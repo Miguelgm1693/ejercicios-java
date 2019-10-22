@@ -46,7 +46,7 @@ public class Ejercicio26 {
     System.out.printf("Total                   %4.2f €\n", total);
     
     double descuento = 0;
-    if (tieneTarjeta) {
+    if (tieneTarjeta = true) {
       descuento = total * 0.1;
     }
     

@@ -4,7 +4,7 @@ public class Ejercicio17 {
       
     System.out.println("En este programa vamos a dar un número el cual nos va a dar la última cifra de ese número");
     
-    System.out.println("Escriba un número entero: ");
+    System.out.print("Escriba un número entero: ");
     int num = Integer.parseInt(System.console().readLine());
     
     System.out.println("La última cifra del número escrito es " + ( num % 10));
