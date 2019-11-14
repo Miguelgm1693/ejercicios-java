@@ -10,18 +10,32 @@ public class Ejercicio05 {
     int [] numero  = new int[10];
     int max = Integer.MIN_VALUE;
     int min = Integer.MAX_VALUE;
+    int i;
     
     System.out.println("Introduzca 10 números enteros: ");
-    for (int i = 0; i < 10; i++) {
+    for (i = 0; i < 10; i++) {
       numero [i] = Integer.parseInt(sc.nextLine());
       
-      if (numero = max) {
-        System.out.println("El máximo es " + numero);
+      if (numero[i] < min) {
+        min = numero[i];
       }
-      
+      if (numero [i] > max) {
+        max = numero[i];
+      }
     }
     
-    System.out.println("");
-  }
-  
+    System.out.println();
+    
+    for (i = 0; i < 10; i++) {
+      System.out.println(numero[i]);
+      if (numero[i] == max) {
+        System.out.println(numero[i] + " es el máximo");
+      }
+      if (numero[i] == min) {
+        System.out.println(numero[i] + " es el mínimo");
+      }
+      System.out.println(); 
+    }
+    
+  }  
 }
