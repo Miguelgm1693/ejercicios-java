@@ -32,8 +32,8 @@ public class BuscarTesoro {
     int tesoroX;
     int tesoroY;
     do {
-      tesoroX = 0;//(int) (Math.random() * 10);
-      tesoroY = 1;//(int) (Math.random() * 8);
+      tesoroX = (int) (Math.random() * 10);
+      tesoroY = (int) (Math.random() * 8);
     } while ((minaX == tesoroX) && (minaY == tesoroY));
 
     matriz[tesoroX][tesoroY] = TESORO;
@@ -56,7 +56,7 @@ public class BuscarTesoro {
         }
         System.out.println();
       }
-      System.out.println(" --------------------\n  0 1 2 3 4 5 6 7 8 9 \n");
+      System.out.println(" ---------------------\n  0 1 2 3 4 5 6 7 8 9 \n");
 
       //pedir la coordenada que desea buscar el jugador
       System.out.println("Pon una coordenada X: ");
@@ -102,7 +102,7 @@ public class BuscarTesoro {
       }
       System.out.println();
     }
-    System.out.println(" --------------------\n   0 1 2 3 4 5 6 7 8 9 \n ");
+    System.out.println(" -----------------\n  0 1 2 3 4 5 6 7 8 9 \n ");
     
   }
 }
