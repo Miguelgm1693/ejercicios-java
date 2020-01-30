@@ -10,3 +10,4 @@
 * [TEMA 7: Arrays](https://github.com/Miguelgm1693/ejercicios-java/tree/master/EJERCICIOS%20PRO%2007)
 * [TEMA 8: Funciones]()
 * [TEMA 9: Programación orientada a objetos](https://github.com/Miguelgm1693/ejercicios-java/tree/master/EJERCICIOS%20PRO%2009)
+* [TEMA 10: Colecciones y Diccionarios]()
